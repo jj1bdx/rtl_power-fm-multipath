@@ -80,4 +80,6 @@ Tuner gain set to 8.70 dB.
 
 ## License
 
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Reference papers in Japanese under `papers/` are obtained from [J-STAGE](https://www.jstage.jst.go.jp/)
+
