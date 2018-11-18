@@ -1,0 +1,17 @@
+kenji@bigmac[1230]% rtl_power -f 85.05M:85.15M:1k -i 1 -e 5m -g 8.7 -w hamming -F 9 -P | tail -n +2 > fmosaka-3.csv
+Number of frequency hops: 1
+Dongle bandwidth: 1600000Hz
+Downsampling by: 16x
+Cropping by: 0.00%
+Total FFT bins: 128
+Logged FFT bins: 128
+FFT bin size: 781.25Hz
+Buffer size: 16384 bytes (5.12ms)
+Reporting every 1 seconds
+Found 1 device(s):
+  0:  Realtek, RTL2838UHIDIR, SN: 00000001
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Tuner gain set to 8.70 dB.
+[R82XX] PLL not locked!

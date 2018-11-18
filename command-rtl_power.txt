@@ -1,0 +1,11 @@
+rtl_power -f 88.05M:88.15M:1k -i 1 -e 5m -g 8.7 -w hamming -F 9 -P | tail -n +2 > nhkfm3.csv
+python peakhold.py nhkfm3.csv > nhkfm3-ph.csv
+
+rtl_power -f 76.45M:76.55M:1k -i 1 -e 5m -g 8.7 -w hamming -F 9 -P | tail -n +2 > cocolo3.csv
+python peakhold.py cocolo3.csv > cocolo3-ph.csv
+
+rtl_power -f 80.15M:80.25M:1k -i 1 -e 5m -g 8.7 -w hamming -F 9 -P | tail -n +2 > fm802-3.csv
+python peakhold.py fm802-3.csv > fm802-3-ph.csv
+
+rtl_power -f 85.05M:85.15M:1k -i 1 -e 5m -g 8.7 -w hamming -F 9 -P | tail -n +2 > fmosaka-3.csv
+python peakhold.py fmosaka-3.csv > fmosaka-3-ph.csv
